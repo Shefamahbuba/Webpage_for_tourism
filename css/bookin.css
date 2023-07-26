@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bars{
+    display:flex;
+    
+    justify-content:space-between ;
+    background-color:rgba(0,0,0,.9);
+}
+.logo{
+    color:orangered;
+    font-size:45px;
+    margin:38px;
+    letter-spacing: 1.15rem;
+    margin-left: 70px;
+}
+.nav-bar{
+    margin:38px;
+    margin-right:85px;
+}
+.nav-bar ul{
+    display:flex;
+}
+.nav-bar ul li{
+    list-style: none;
+}
+.nav-bar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+}
+.nav-bar ul li a:hover{
+    color: orangered;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sql-fetch{
+    display:flex;
+    
+    margin: 65px;
+    height: 68vh;
+    box-shadow: 5px 5px 12px 10px rgba(0,0,0,0.3);
+    transition: 1s;
+}
+.sql-fetch .size {
+    display:flex;
+    
+}
+.sql-fetch .size .picture img{
+    display:block;
+    width:380px;
+    height:360px;
+    
+    margin:15px;
+    margin-left:25px ;
+    padding:15px;
+
+}
+.sql-fetch .size .proper-des{
+    margin-top: 75px;
+    font-size: 1.45rem;
+    
+
+}
+.package_name{
+    
+    color: orangered;
+    
+}
+
+.price{
+    
+    color:orangered;
+   
+    margin-top:15px;
+   
+    
+    
+   
+}
+.transport{
+    margin-top:15px;
+
+}
+.transport h4{
+    display: inline;
+}
+.facilities{
+    margin-top:15px;
+
+}
+.package_name h4,.price h4{
+    color: black;
+    display:inline;
+}
+.sql-fetch .size .proper-des a{
+    display:block;
+    width:50%;
+    text-decoration: none;
+    color:black;
+    margin-top:15px;
+    background-color: orangered;
+    padding: 5px 10px;
+    
+}
+.sql-fetch .size .proper-des a:hover{
+    background-color: rgb(196, 185, 181);
+    
+
+}
+.sql-fetch:hover{
+    transform: translateY(-1.2rem);
+}
+p{
+    display:inline;
+}
+
+
+
+#book-now{
+    display:flex;
+    
+    justify-content:center;
+    margin:60px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding:60px;
+    box-shadow: 5px 5px 12px 10px rgba(0,0,0,0.3);
+}
+#book-now form{
+    display:flex;
+    flex-direction: column;
+}
+
+#book-now form label{
+    font-size: 1.5rem;
+    padding:10px;
+   
+    width:300px;
+}
+#book-now form input{
+    padding:12px;
+    margin: 7px;
+    width:300px;
+}
+#book-now form button{
+    margin:8px;
+    padding:12px;
+}
+#book-now form button a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    color:black;
+}
+#book-now form button:hover{
+    background-color: orangered;
+}
+

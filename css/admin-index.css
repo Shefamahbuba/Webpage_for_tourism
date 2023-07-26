@@ -1,0 +1,266 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    color:orangered;
+}
+.work-panel:before{
+    content: "";
+    
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.6;
+      z-index: -1;
+      height: 100vh;
+    
+}
+
+.upper-panel{
+    background-color:black;
+    padding:20px;
+    color: orangered;
+
+}
+.upper-panel .logo{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:40px;
+    letter-spacing: 1.2rem;
+}
+.work-panel{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top:150px;
+    transition: 5s;
+
+    
+    
+}
+.project,.users,.issues,.bookings{
+    
+    width:250px;
+    height: 250px;
+    box-shadow: 5px 5px 10px 12px rgba(0,0,0,0.4);
+    margin-left:30px;
+    margin-right: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: white;
+    transition: 1s;
+    
+}
+.project a,.users a,.issues a,.bookings a{
+    text-decoration: none;
+    color:orangered;
+    font-size: 30px;
+}
+.project:hover,.users:hover,.issues:hover,.bookings:hover{
+    transform: translateY(-1.5rem);
+}
+
+#project{
+    display:flex;
+   
+   
+}
+#project ul{
+    display:flex;
+    flex-direction: row;
+    list-style: none;
+    margin-left: 320px;
+    margin-top: 120px;
+}
+#project ul li{
+    margin:45px;
+    padding:15px;
+    background-color: black;
+    font-size: 20px;
+    box-shadow: 2px 2px 4px 4px rgba(0,0,0,0.3);
+    transition: 1s;
+
+}
+#project ul li:hover{
+    transform: translateX(1.5rem);
+    cursor: pointer;
+}
+.create-packages{
+    margin-bottom:50px;
+    display:flex;
+    margin-left:429px;
+
+}
+
+.create-packages form{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    
+   
+    margin-bottom:35px;
+    padding:50px;
+    box-shadow: 2px 2px 4px 4px rgba(0,0,0,0.3);
+
+}
+.create-packages form label{
+    width:200px;
+    font-size: 1.35rem;
+    margin:4.5px;
+    display: inline;
+}
+.create-packages form  input{
+    width:400px;
+    padding:8px;
+    font-size: 1.15rem;
+
+}
+.create-packages form button{
+    margin-top: 20px;
+    padding:7.5px;
+    font-size: 1.3rem;
+    margin-bottom:10px;
+
+}
+.create-packages form button:hover{
+    background-color: turquoise;
+}
+
+
+
+.update-packages{
+    margin-bottom:50px;
+    display: flex;
+    margin-left:429px;
+
+}
+
+.update-packages form{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    
+    margin-bottom:35px;
+    padding:50px;
+    box-shadow: 2px 2px 4px 4px rgba(0,0,0,0.3);
+
+}
+.update-packages form label{
+    width:200px;
+    font-size: 1.35rem;
+    margin:4.5px;
+    display: inline;
+}
+.update-packages form  input{
+    width:400px;
+    padding:8px;
+    font-size: 1.15rem;
+
+}
+.update-packages form button{
+    margin-top: 20px;
+    padding:7.5px;
+    font-size: 1.3rem;
+    margin-bottom:10px;
+
+}
+.update-packages form button:hover{
+    background-color: turquoise;
+}
+
+
+
+
+.show-first{
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    margin-left:400px;
+    width:50%;
+    color:black;
+    padding:30px;
+    padding-left: 70px;
+    margin-bottom:35px;
+    box-shadow: 2px 2px 4px 4px rgba(0,0,0,0.3);
+}
+.show-first h1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.show-first td,.show-first th{
+   
+    padding-left: 37px;
+    color:black;
+
+}
+
+
+
+.delete-packages{
+    display: flex;
+    flex-direction: column;
+    position:relative;
+    margin-left:429px;
+    margin-bottom:50px;
+    
+    
+
+}
+.delete-packages form input{
+    margin:20px;
+    padding:12px;
+
+}
+.delete-packages form button{
+    margin:20px;
+    padding:7px 25px;
+    cursor:pointer;
+}
+
+
+
+
+
+
+
+
+
+.user-issues{
+    color:black;
+   margin:20px;
+   padding:20px;
+}
+.user-issues h5{
+    color:black;
+    display:flex;
+}
+.user-issues .user-name{
+    color:black;
+}
+.user-issues .user-email{
+    color: black;
+}
+.user-issues .user-issues1{
+    color: black;
+}
+ .action button:hover{
+    cursor: pointer;
+    background-color: grey;
+}
+.action button{
+    padding:5px;
+    margin-top: 10px;
+    background: white;
+}
+
+
+

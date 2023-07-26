@@ -1,0 +1,206 @@
+.nav-bar{
+    display:flex;
+
+}
+.nav-bar ul{
+    display:flex;
+}
+.nav-bar ul li{
+    list-style: none;
+    margin:37px;
+    
+}
+.nav-bar ul li a{
+    text-decoration: none;
+    color:white;
+    font-size: 1.2rem;
+}
+.nav-bar ul li a:hover,.log-in-link a:hover{
+    color:orangered;
+}
+
+
+
+
+
+#packages h1{
+    color: orangered;
+    font-size: 45px;
+    letter-spacing: 1.2rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+
+.sql-fetch{
+    display:flex;
+    
+    margin: 65px;
+    height: 325px;
+    box-shadow: 5px 5px 12px 10px rgba(0,0,0,0.3);
+    transition: 1s;
+}
+.sql-fetch .size {
+    display:flex;
+    
+}
+.sql-fetch .size .picture img{
+    display:block;
+    width:370px;
+    height:280px;
+    
+    margin:15px;
+    margin-left:25px ;
+    padding:15px;
+
+}
+.sql-fetch .size .proper-des{
+    margin-top: 75px;
+    font-size: 1.45rem;
+    
+
+}
+.package_name{
+    
+    color: orangered;
+    
+}
+
+.price{
+    
+    color:orangered;
+   
+    margin-top:15px;
+   
+    
+    
+   
+}
+.package_name h4,.price h4{
+    color: black;
+    display:inline;
+}
+.sql-fetch .size .proper-des a{
+    display:block;
+    width:47%;
+    text-decoration: none;
+    color:black;
+    margin-top:15px;
+    background-color: orangered;
+    padding: 2px 8px;
+    
+}
+.sql-fetch .size .proper-des a:hover{
+    background-color: rgb(196, 185, 181);
+    
+
+}
+.sql-fetch:hover{
+    transform: translateY(-1.2rem);
+}
+
+
+
+
+.bookedpackages h1{
+    color: orangered;
+    font-size: 45px;
+    letter-spacing: 1.1rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+
+#booked-packages{
+    margin:85px;
+    margin-left: 465px;
+    box-shadow: 5px 5px 12px 10px rgba(0,0,0,0.3);
+    width:43%;
+    padding:60px;
+
+}
+
+table th{
+    padding:20px;
+    
+}
+table td{
+    padding: 20px;
+}
+
+
+
+
+
+.issues{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    background-color: black;
+}
+.issues form{
+    margin:40px;
+    margin:20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+}
+.issues textarea,.issues button{
+    margin:20px;
+    padding:10px 15px;
+}
+.issues label{
+    margin:10px;
+   font-size: larger;
+}
+.issues button:hover{
+    cursor: pointer;
+    background-color: orangered;
+
+}
+
+
+
+.confirmation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 200px;
+    margin-left: 150px;
+   
+    width:80%;
+    height: 30%;
+
+}
+.confirmation p{
+    font-size:1.2rem;
+    color:orangered;
+    
+}
+.confirmation a{
+    text-decoration: none;
+    margin-top: 120px;
+    margin-bottom: 20px;
+    margin-left: -300px;
+    color: orangered;
+    padding:10px 15px;
+}
+.confirmation a:hover{
+    background-color: orangered;
+    color: white;
+
+}
+
+
+
+
+
+
+
+
+
